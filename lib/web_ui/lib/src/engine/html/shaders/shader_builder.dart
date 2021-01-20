@@ -328,7 +328,7 @@ class ShaderDeclaration {
 
 // These are used only in debug mode to assert if used as variable name.
 // https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.10.pdf
-const List<String> _kReservedWords = [
+const List<String>  = [
   'attribute',
   'const',
   'uniform',
@@ -382,7 +382,7 @@ const List<String> _kReservedWords = [
   'image2DArrayShadow', 'image2DShadow', 'image3D', 'imageBuffer',
   'imageCube', 'inline', 'input', 'interface', 'long',
   'namespace', 'noinline', 'output', 'packed', 'partition', 'public',
-  'row_majo', 'short', 'sizeof', 'static', 'superp', 'template', 'this',
+  'row_major', 'sampler3DRect', 'short', 'sizeof', 'static', 'superp', 'template', 'this',
   'typedef', 'uimage1D', 'uimage1DArray', 'uimage2D', 'uimage2DArray',
   'uimage3D', 'uimageBuffer', 'uimageCube', 'union', 'unsigned',
   'using', 'volatile',
